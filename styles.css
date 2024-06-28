@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
@@ -63,12 +63,12 @@ body {
 
 @keyframes swipeRight {
     0% { transform: translateX(0); }
-    100% { transform: translateX(100%); }
+    100% { transform: translateX(100%) rotate(15deg); }
 }
 
 @keyframes swipeLeft {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
+    100% { transform: translateX(-100%) rotate(-15deg); }
 }
 
 .card-content {
@@ -111,106 +111,36 @@ body {
 }
 
 .victory-message {
-    text-align:center;
-color: #007BFF;
+    text-align: center;
+    color: #007BFF;
 }
 
 .trophy {
-max-width: 10%;
-height: auto;
-margin: 20px 0;
+    max-width: 10%;
+    height: auto;
+    margin: 20px 0;
 }
 
 .confetti {
-position: absolute;
-width: 100%;
-height: 100%;
-pointer-events: none;
-overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
 }
 
 .confetto {
-position: absolute;
-width: 10px;
-height: 10px;
-background-color: #FF4136;
-opacity: 0.7;
-animation: fall linear infinite;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FF4136;
+    opacity: 0.7;
+    animation: fall linear infinite;
 }
 
 @keyframes fall {
-0% { transform: translateY(-100vh) rotate(0deg); }
-100% { transform: translateY(100vh) rotate(720deg); }
-}
-
-
- /* fetch('https://raw.githubusercontent.com/mario-im/PreviMatch/main/questions.json') */
-
- body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
-
-.container {
-    text-align: center;
-}
-
-.logo-container {
-    margin-bottom: 20px;
-}
-
-.logo {
-    width: 150px;
-    opacity: 0.3;
-}
-
-.game-container {
-    position: relative;
-}
-
-.card {
-    width: 300px;
-    height: 150px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    transition: transform 0.3s;
-}
-
-.card-content {
-    font-size: 20px;
-}
-
-.score-container, .timer-container {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.faq-button-container {
-    margin-top: 20px;
-}
-
-#faq-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-#faq-button:hover {
-    background-color: #0056b3;
+    0% { transform: translateY(-100vh) rotate(0deg); }
+    100% { transform: translateY(100vh) rotate(720deg); }
 }
 
 .overlay {
