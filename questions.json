@@ -1,0 +1,22 @@
+{
+    "levels": [
+        {
+            "level": 1,
+            "questions": [
+                {"question": "Il cielo è blu?", "correct": true, "points": 10},
+                {"question": "L'erba è rossa?", "correct": false, "points": 5}
+            ],
+            "maxScore": 100,
+            "penalty": 1
+        },
+        {
+            "level": 2,
+            "questions": [
+                {"question": "La Terra è piatta?", "correct": false, "points": 20},
+                {"question": "Il sole è una stella?", "correct": true, "points": 15}
+            ],
+            "maxScore": 500,
+            "penalty": 7
+        }
+    ]
+}
