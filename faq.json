@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Che cos'è PreviMatch?",
+        "content": "PreviMatch è un gioco interattivo progettato per valutare quanto conosci i fondi pensione e la previdenza complementare. Rispondi a domande vero/falso facendo swipe a destra o a sinistra."
+    },
+    {
+        "title": "Come si gioca a PreviMatch?",
+        "content": "Per giocare, fai swipe a destra se pensi che l'affermazione sia vera, e a sinistra se pensi che sia falsa. Accumula punti rispondendo correttamente alle domande e cerca di raggiungere il punteggio massimo per avanzare al livello successivo."
+    },
+    {
+        "title": "Quali sono i livelli di PreviMatch?",
+        "content": "PreviMatch ha più livelli, ciascuno con un punteggio massimo da raggiungere. Il primo livello richiede di accumulare 100 punti, mentre i livelli successivi aumentano la difficoltà e il punteggio massimo."
+    },
+    {
+        "title": "Cosa succede se rispondo in modo errato?",
+        "content": "Se rispondi in modo errato, perderai punti in base alla penalità specificata per quella domanda. Cerca di rispondere correttamente per evitare di perdere troppi punti."
+    },
+    {
+        "title": "Posso riprovare un livello?",
+        "content": "Sì, se non raggiungi il punteggio massimo per avanzare al livello successivo, puoi riprovare lo stesso livello fino a quando non accumuli abbastanza punti per passare."
+    },
+    {
+        "title": "Cos'è la previdenza complementare?",
+        "content": "La previdenza complementare è un sistema volontario di risparmio che integra la pensione pubblica obbligatoria. È progettata per aiutare le persone a mantenere il loro tenore di vita dopo il pensionamento."
+    },
+    {
+        "title": "Cosa sono i fondi pensione?",
+        "content": "I fondi pensione sono strumenti di investimento collettivo che raccolgono i contributi dei lavoratori per investirli e garantire una rendita aggiuntiva alla pensione pubblica."
+    },
+    {
+        "title": "Come posso aderire a un fondo pensione?",
+        "content": "Puoi aderire a un fondo pensione attraverso il tuo datore di lavoro, se offrono questa opzione, o autonomamente scegliendo un fondo pensione aperto presso una banca, una compagnia di assicurazione o una società di gestione del risparmio."
+    },
+    {
+        "title": "Quali sono i vantaggi di aderire a un fondo pensione?",
+        "content": "Aderire a un fondo pensione offre diversi vantaggi, tra cui agevolazioni fiscali sui contributi versati, la possibilità di scegliere diverse linee di investimento e una rendita aggiuntiva alla pensione pubblica."
+    },
+    {
+        "title": "Cosa succede ai miei contributi se cambio lavoro?",
+        "content": "Se cambi lavoro, puoi trasferire i tuoi contributi da un fondo pensione a un altro senza perdere i benefici accumulati. La portabilità dei contributi è garantita dalla legge."
+    }
+]
