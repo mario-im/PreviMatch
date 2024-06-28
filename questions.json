@@ -15,6 +15,6 @@
                 {“question”: “Il sole è una stella?”, “correct”: true, “points”: 15, “penalty”: 7}
              ],
              “maxScore”: 500
-        }
+        },
         ]
 }
