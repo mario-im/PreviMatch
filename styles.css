@@ -18,7 +18,7 @@ body {
 
 .logo-container {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.3;
@@ -84,8 +84,8 @@ body {
 
 .timer-container {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 15%;
+    right: 20%;
     font-size: 24px;
     color: red;
 }
