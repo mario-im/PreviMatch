@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let questions = [];
     let levels = [];
 
-    fetch('https://raw.githubusercontent.com/mario-im/PreviMatch/main/questions.json')
+   // fetch('https://raw.githubusercontent.com/mario-im/PreviMatch/main/questions.json')
+    fetch('questions.json')
         .then(response => response.json())
         .then(data => {
             levels = data.levels;
